@@ -1,0 +1,156 @@
+body {
+    background-image: url("backgroud-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(22, 22, 22);
+  }
+  
+  
+  
+  .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 24.2%;
+    margin-bottom: 25px;
+  }
+  
+  .gallery:hover {
+    border: 1px solid #ffffff;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 200%;
+  }
+  
+  
+  #divIMC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  #divIMC div {
+    margin-bottom: 10px;
+  }
+  
+  #divIMC label {
+    display: block;
+  }
+  
+  #divIMC input {
+    width: 140px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  #imcButton {
+    width: 220px;
+    height: 40px;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+  }
+  
+  #imcButton:hover {
+    background-color: transparent;
+    color: white;
+  }
+  
+  #resultat {
+    margin-top: 10px;
+    font-size: 25px;
+    color: #ffffff;
+    /* margin-bottom: 20px; */
+  }
+  
+  #Interpretation {
+    color: #ffffff;
+    font-size: 28px;
+  }
+  
+  .home-button {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    float: left;
+  }
+  
+  .home-button:hover {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .align {
+    display: flex;
+  }
+  
+  h1 {
+    font-style: oblique;
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0 23%;
+  }
+  
+  #random-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 23px;
+    border-radius: 10px;
+  }
+  
+  #random-button:hover {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .signup {
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    border-radius: 10px;
+  
+  }
+  
+  .signup:hover {
+    background-color: transparent;
+    color: white;
+  }
+  
+  
+  #logOut {
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  #logOut:hover {
+    background-color: transparent;
+    color: white;
+  }

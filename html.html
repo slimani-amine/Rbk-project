@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workout plan</title>
+  <link rel="stylesheet" href="css.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <button id="logOut"> Log out </button>
+  <h1>Workout plan</h1>
+  <br> <br>
+  <div id="divIMC">
+    <div>
+      <label for="input-weight">Weight (Kg) </label>
+      <input type="text" id="weight">
+    </div>
+    <div>
+      <label for="input-height"> Height (m) </label>
+      <input type="text" id="height">
+    </div>
+    <button id="imcButton">Calculate your BMI</button>
+    <div id="resultat"></div>
+    <div id="Interpretation"></div>
+
+  </div>
+
+
+  <div class="gallery">
+    <a href="chest.html"><img src="images/hp/chest.jpg" title="Chest workout" alt="Chest workout" width="600"
+        height="400"></a>
+    <div class="desc">Chest workout</div>
+  </div>
+
+  <div class="gallery">
+    <a href="shoulders.html"><img src="images/hp/shoulder.jpg" alt="Shoulders" width="600" height="400"></a>
+    <div class="desc">Shoulders workout</div>
+  </div>
+
+  <div class="gallery">
+    <a href="back.html"> <img src="images/hp/back1.jpg" alt="back" width="600" height="400"> </a>
+    <div class="desc">Back workout</div>
+  </div>
+
+  <div class="gallery">
+    <a href="legs.html"> <img src="images/hp/legs.jpg" alt="legs" width="600" height="400"> </a>
+    <div class="desc">Legs workout</div>
+  </div>
+  <button id="random-button">Choose for me </button>
+  <script src="js.js"></script>
+</body>
+
+</html>
